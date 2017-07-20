@@ -1,4 +1,4 @@
-# krakenapi [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# krakenapi [![NPM version][npm-image]][npm-url] [![Coverage Status](https://coveralls.io/repos/github/martolini/kraken-node/badge.svg?branch=master)](https://coveralls.io/github/martolini/kraken-node?branch=master)
 > Api wrapper from kraken.com
 
 ## Installation
