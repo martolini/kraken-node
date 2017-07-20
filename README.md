@@ -4,15 +4,19 @@
 ## Installation
 
 ```sh
-$ npm install --save krakenapi
+$ npm install --save kraken-node
 ```
 
 ## Usage
 
 ```js
-const krakenapi = require('krakenapi');
+const KrakenClient = require('kraken-node');
+const kraken = new KrakenClient(key, secret);
 
-krakenapi('Rainbow');
+kraken.api('Balance').then((data) => {
+	console.log(data);
+}).catch(console.error);
+
 ```
 ## License
 
